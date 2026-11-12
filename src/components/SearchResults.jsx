@@ -852,7 +852,7 @@ export default function SearchResults({
                     <span className="news-source">PUDUCHERRY CHRONICLE · 2 hours ago</span>
                     <h3>{entityMeta.title} Officially Declared Prettiest Person in Town</h3>
                     <p>
-                      Global consensus confirmed today: her smile continues to shatter
+                      {query} in her sleep mode continues to shatter
                       cuteness records across Puducherry and beyond.
                     </p>
                   </div>
@@ -880,7 +880,7 @@ export default function SearchResults({
                       Puducherry with her are irreplaceable.
                     </p>
                   </div>
-                  <img src={allPhotos[18]?.image || allPhotos[2]?.image} alt="News 3" />
+                  <img src={allPhotos[16]?.image || allPhotos[17]?.image} alt="News 3" />
                 </article>
               </>
             )}
